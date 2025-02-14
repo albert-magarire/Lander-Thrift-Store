@@ -1,5 +1,4 @@
 <?php
-    // database details
     $host = "localhost";
     $user = "root";
     $psword = "";
