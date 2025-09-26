@@ -8,5 +8,6 @@
     if (mysqli_connect_errno()) {
         die("Failed to connect with Mysql: " . mysqli_connect_errno());
     }
-
+//redacted the password for security and stuff
 ?>
+
