@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($stmt->execute()) {
         echo "Item deleted successfully.";
     } else {
-        echo "Error deleting item: " . $conn->error;
+        echo "Error deleting item: " . $conn->error; //retrun error if database connection error occurs
     }
     $stmt->close();
     $conn->close();
